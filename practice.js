@@ -4,7 +4,7 @@ let name = input.question(" Enter name ");
 
 let lastName = input.question(" Enter last name ");
 
-console.log("Hello " + name + lastName);
+console.log("Hello " + name + " " + lastName);
 
 
 
@@ -18,4 +18,4 @@ let questionFour = input.question(" What is a boolean? ");
 
 let questionFive = input.questionInt(" What is your age? ");
 
-console.log("Correct!" + question + questionTwo + questionThree + questionFour + questionFive);
+console.log("Correct!" + "\n" + question + "\n" + questionTwo + "\n" + questionThree + "\n" + questionFour + "\n" + questionFive);
