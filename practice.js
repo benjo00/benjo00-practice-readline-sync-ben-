@@ -18,4 +18,11 @@ let questionFour = input.question(" What is a boolean? ");
 
 let questionFive = input.questionInt(" What is your age? ");
 
+if (question === "Data" && questionTwo === "Info" && questionThree === "Action" && questionFour === "True/False" && questionFive >= 20) {
+
+
+
 console.log("Correct!" + "\n" + question + "\n" + questionTwo + "\n" + questionThree + "\n" + questionFour + "\n" + questionFive);
+} else {
+console.log("false");
+}
